@@ -1,0 +1,91 @@
+Generated Script
+"// DO NOT ALTER THIS SUBROUTINE
+SUB ExtendQVDWhere(Name, ValVarName)
+  LET T = Name & '_COLNAME';
+  LET ColName = $(T);
+  LET Values = $(ValVarName);
+  IF (len(Values) > 0) THEN
+        IF len(WHERE_PART) > 0 THEN
+        
+        LET WHERE_PART = '$(WHERE_PART) AND mixmatch([$(ColName)],$(Values) )';
+    ELSE
+        LET WHERE_PART = 'WHERE mixmatch([$(ColName)],$(Values))';
+    ENDIF
+  ENDIF
+END SUB;
+
+// DO NOT ALTER THIS SUBROUTINE
+SUB ExtendSQLWhere(Name, ValVarName)
+  LET T = Name & '_COLNAME';
+  LET ColName = $(T);
+  LET Values = $(ValVarName);
+  IF (len(Values) > 0) THEN
+        IF len(WHERE_PART) > 0 THEN        
+        LET WHERE_PART = '$(WHERE_PART) AND $(ColName) IN ( $(Values) )';
+    ELSE
+        LET WHERE_PART = ' WHERE $(ColName) IN ( $(Values) )';
+    ENDIF
+  ENDIF
+END SUB;
+
+// DO NOT ALTER THIS SUBROUTINE
+SUB BuildValueList(VarName, TableName, ColName, QuoteChrNum)
+  IF ($(QuoteChrNum) = 0) THEN
+  	LET LOADEXPR = 'Concat($(ColName),'&chr(39) &',' & chr(39) & ') AS CombinedData';
+    
+  ELSE
+    LET CHREXPR = ' chr('&'$(QuoteChrNum)'&')';
+    LET LOADEXPR ='Concat( $(CHREXPR) & $(ColName) & $(CHREXPR)' & ',' & chr(39) & ',' & chr(39) & ') AS CombinedData';     
+  ENDIF
+  _TempTable:
+    LOAD $(LOADEXPR) Resident $(TableName);
+   Let vNoOfRows = NoOfRows( '_TempTable');
+    IF $(vNoOfRows)> 0 THEN
+    LET $(VarName) = Peek('CombinedData',0,'_TempTable');
+  ENDIF
+  drop table _TempTable;
+  drop table '$(TableName)';
+END SUB;
+"
+"SET YEAR_1= '';
+OdagBinding:
+LOAD * INLINE [
+VAL 
+$(odso_YEAR){""quote"": """", ""delimiter"": """"}
+];
+
+SET YEAR_1_COLNAME='YEAR';
+CALL BuildValueList('YEAR_1', 'OdagBinding', 'VAL', 0);
+"
+"SET MONTH_1= '';
+OdagBinding:
+LOAD * INLINE [
+VAL 
+$(odso_MONTH){""quote"": """", ""delimiter"": """"}
+];
+
+SET MONTH_1_COLNAME='MONTH';
+CALL BuildValueList('MONTH_1', 'OdagBinding', 'VAL', 39);
+"
+"SET EVENT_DIRECTION_1= '';
+OdagBinding:
+LOAD * INLINE [
+VAL 
+$(odso_EVENT_DIRECTION){""quote"": """", ""delimiter"": """"}
+];
+
+SET EVENT_DIRECTION_1_COLNAME='EVENT_DIRECTION';
+CALL BuildValueList('EVENT_DIRECTION_1', 'OdagBinding', 'VAL', 39);
+"
+"SET WHERE_PART = '';
+FOR EACH fldname IN 'YEAR_1','MONTH_1','EVENT_DIRECTION_1' 
+	LET vallist = $(fldname);
+    IF (IsNull(vallist)) THEN
+    	LET vallist = '';
+        ENDIF
+    IF (len(vallist) > 0) THEN
+    CALL ExtendSQLWhere('$(fldname)','vallist');
+    ENDIF
+NEXT fldname
+TRACE Generated WHERE clause: ;
+TRACE $(WHERE_PART);"
