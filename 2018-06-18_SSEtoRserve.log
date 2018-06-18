@@ -1,0 +1,748 @@
+2018-06-18 12:14:28.4539 INFO No certificates defined. Opening insecure channel. 
+2018-06-18 12:14:28.4695 INFO Capabilities created: identifier (Qlik SSEtoRserve plugin), version (v1.1.0), allowScript (True), defined functions (No functions defined) 
+2018-06-18 12:14:29.1871 INFO gRPC listening on port 50051 
+2018-06-18 12:14:29.5147 ERROR Reconnect to Rserve failed (Socket error): Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder 
+2018-06-18 12:14:35.5518 ERROR Reconnect to Rserve failed (Socket error): Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder 
+2018-06-18 12:14:41.5734 ERROR Reconnect to Rserve failed (Socket error): Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder 
+2018-06-18 12:14:47.6886 ERROR Reconnect to Rserve failed (Socket error): Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder 
+2018-06-18 12:14:53.7101 ERROR Reconnect to Rserve failed (Socket error): Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder 
+2018-06-18 12:14:59.7317 ERROR Reconnect to Rserve failed (Socket error): Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder 
+2018-06-18 12:15:05.7533 ERROR Reconnect to Rserve failed (Socket error): Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder 
+2018-06-18 12:15:11.7748 ERROR Reconnect to Rserve failed (Socket error): Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder 
+2018-06-18 12:15:17.7964 ERROR Reconnect to Rserve failed (Socket error): Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder 
+2018-06-18 12:15:23.8179 ERROR Reconnect to Rserve failed (Socket error): Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder 
+2018-06-18 12:15:29.8395 ERROR Reconnect to Rserve failed (Socket error): Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder 
+2018-06-18 12:15:35.8611 ERROR Reconnect to Rserve failed (Socket error): Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder 
+2018-06-18 12:15:41.4614 INFO Connected to RServe 127.0.0.1:6311 with user (empty user) 
+2018-06-18 12:21:13.2034 INFO GetCapabilities called from client (ipv6:[::1]:62450) 
+2018-06-18 12:21:51.7223 INFO GetCapabilities called from client (ipv6:[::1]:62530) 
+2018-06-18 12:21:56.8777 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (58366981) 
+2018-06-18 12:21:56.8777 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 12:21:57.1302 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=3))[,1]; 
+2018-06-18 12:21:57.1302 INFO Param names:  measure periodo 
+2018-06-18 12:21:58.8102 INFO Rserve result: 3 rows, hashid (58366981) 
+2018-06-18 12:21:58.8202 DEBUG Took 1689 ms, hashid (58366981) 
+2018-06-18 12:23:16.4822 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (38583594) 
+2018-06-18 12:23:16.4822 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (19 rows) 
+2018-06-18 12:23:16.4822 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=3))[,1]; 
+2018-06-18 12:23:16.4822 INFO Param names:  measure periodo 
+2018-06-18 12:23:16.5122 INFO Rserve result: 3 rows, hashid (38583594) 
+2018-06-18 12:23:16.5122 DEBUG Took 31 ms, hashid (38583594) 
+2018-06-18 12:24:49.2408 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (51781231) 
+2018-06-18 12:24:49.2408 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (19 rows) 
+2018-06-18 12:24:49.2408 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=3))[,1]; 
+2018-06-18 12:24:49.2408 INFO Param names:  measure periodo 
+2018-06-18 12:24:49.2708 INFO Rserve result: 3 rows, hashid (51781231) 
+2018-06-18 12:24:49.2708 DEBUG Took 30 ms, hashid (51781231) 
+2018-06-18 12:25:52.3919 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (65849037) 
+2018-06-18 12:25:52.3919 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (19 rows) 
+2018-06-18 12:25:52.3944 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=3))[,1]; 
+2018-06-18 12:25:52.3944 INFO Param names:  measure periodo 
+2018-06-18 12:25:52.4169 INFO Rserve result: 3 rows, hashid (65849037) 
+2018-06-18 12:25:52.4169 DEBUG Took 24 ms, hashid (65849037) 
+2018-06-18 12:26:05.4655 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (62407605) 
+2018-06-18 12:26:05.4655 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (19 rows) 
+2018-06-18 12:26:05.4655 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=3))[,1]; 
+2018-06-18 12:26:05.4655 INFO Param names:  measure periodo 
+2018-06-18 12:26:05.4855 INFO Rserve result: 3 rows, hashid (62407605) 
+2018-06-18 12:26:05.4855 DEBUG Took 18 ms, hashid (62407605) 
+2018-06-18 12:26:17.5028 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (463695) 
+2018-06-18 12:26:17.5028 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (19 rows) 
+2018-06-18 12:26:17.5028 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=3))[,1]; 
+2018-06-18 12:26:17.5028 INFO Param names:  measure periodo 
+2018-06-18 12:26:17.5465 INFO Rserve result: 3 rows, hashid (463695) 
+2018-06-18 12:26:17.5465 DEBUG Took 26 ms, hashid (463695) 
+2018-06-18 12:26:29.8980 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (26430654) 
+2018-06-18 12:26:29.8980 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (19 rows) 
+2018-06-18 12:26:29.8980 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=3))[,1]; 
+2018-06-18 12:26:29.8980 INFO Param names:  measure periodo 
+2018-06-18 12:26:29.9155 INFO Rserve result: 3 rows, hashid (26430654) 
+2018-06-18 12:26:29.9155 DEBUG Took 16 ms, hashid (26430654) 
+2018-06-18 12:27:32.8993 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (30152281) 
+2018-06-18 12:27:32.8993 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (19 rows) 
+2018-06-18 12:27:32.8993 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=3))[,1]; 
+2018-06-18 12:27:32.8993 INFO Param names:  measure periodo 
+2018-06-18 12:27:32.9218 INFO Rserve result: 3 rows, hashid (30152281) 
+2018-06-18 12:27:32.9218 DEBUG Took 21 ms, hashid (30152281) 
+2018-06-18 12:28:43.9169 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (40958450) 
+2018-06-18 12:28:43.9169 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (19 rows) 
+2018-06-18 12:28:43.9169 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=3))[,1]; 
+2018-06-18 12:28:43.9169 INFO Param names:  measure periodo 
+2018-06-18 12:28:43.9569 WARN Rserve error: Error in hw(p[1L], p[2L], p[3L]) : 
+  NA/NaN/Inf in foreign function call (arg 1)
+ 
+2018-06-18 12:29:44.0587 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (37709859) 
+2018-06-18 12:29:44.0587 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 12:29:44.0587 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=3))[,1]; 
+2018-06-18 12:29:44.0587 INFO Param names:  measure periodo 
+2018-06-18 12:29:44.0712 WARN Rserve error: Error in hw(p[1L], p[2L], p[3L]) : 
+  NA/NaN/Inf in foreign function call (arg 1)
+ 
+2018-06-18 12:30:06.9036 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (45658036) 
+2018-06-18 12:30:06.9036 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 12:30:06.9036 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=3))[,1]; 
+2018-06-18 12:30:06.9036 INFO Param names:  measure periodo 
+2018-06-18 12:30:06.9336 INFO Rserve result: 3 rows, hashid (45658036) 
+2018-06-18 12:30:06.9336 DEBUG Took 29 ms, hashid (45658036) 
+2018-06-18 12:30:52.5990 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (52371237) 
+2018-06-18 12:30:52.5990 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 12:30:52.5990 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=3))[,1]; 
+2018-06-18 12:30:52.5990 INFO Param names:  measure periodo 
+2018-06-18 12:30:52.6990 INFO Rserve result: 3 rows, hashid (52371237) 
+2018-06-18 12:30:52.6990 DEBUG Took 100 ms, hashid (52371237) 
+2018-06-18 12:32:06.2709 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (32370540) 
+2018-06-18 12:32:06.2709 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 12:32:06.2709 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=3))[,1]; 
+2018-06-18 12:32:06.2709 INFO Param names:  measure periodo 
+2018-06-18 12:32:06.2809 INFO Rserve result: 3 rows, hashid (32370540) 
+2018-06-18 12:32:06.2809 DEBUG Took 23 ms, hashid (32370540) 
+2018-06-18 12:32:18.1978 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (33181464) 
+2018-06-18 12:32:18.1978 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 12:32:18.1978 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=4))[,1]; 
+2018-06-18 12:32:18.1978 INFO Param names:  measure periodo 
+2018-06-18 12:32:18.2178 INFO Rserve result: 4 rows, hashid (33181464) 
+2018-06-18 12:32:18.2178 DEBUG Took 20 ms, hashid (33181464) 
+2018-06-18 12:32:18.2803 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (12295283) 
+2018-06-18 12:32:18.2803 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 12:32:18.2803 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=7))[,1]; 
+2018-06-18 12:32:18.2803 INFO Param names:  measure periodo 
+2018-06-18 12:32:18.3028 INFO Rserve result: 7 rows, hashid (12295283) 
+2018-06-18 12:32:18.3028 DEBUG Took 22 ms, hashid (12295283) 
+2018-06-18 12:32:19.4878 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (29742526) 
+2018-06-18 12:32:19.4878 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 12:32:19.4878 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=4))[,1]; 
+2018-06-18 12:32:19.4878 INFO Param names:  measure periodo 
+2018-06-18 12:32:19.5078 INFO Rserve result: 4 rows, hashid (29742526) 
+2018-06-18 12:32:19.5078 DEBUG Took 19 ms, hashid (29742526) 
+2018-06-18 12:32:21.4778 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (17602418) 
+2018-06-18 12:32:21.4778 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 12:32:21.4778 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=2))[,1]; 
+2018-06-18 12:32:21.4778 INFO Param names:  measure periodo 
+2018-06-18 12:32:21.4953 INFO Rserve result: 2 rows, hashid (17602418) 
+2018-06-18 12:32:21.4953 DEBUG Took 18 ms, hashid (17602418) 
+2018-06-18 12:32:22.5224 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (63813760) 
+2018-06-18 12:32:22.5224 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 12:32:22.5224 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=4))[,1]; 
+2018-06-18 12:32:22.5224 INFO Param names:  measure periodo 
+2018-06-18 12:32:22.5449 INFO Rserve result: 4 rows, hashid (63813760) 
+2018-06-18 12:32:22.5449 DEBUG Took 21 ms, hashid (63813760) 
+2018-06-18 12:32:27.6089 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (13505680) 
+2018-06-18 12:32:27.6089 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 12:32:27.6089 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=6))[,1]; 
+2018-06-18 12:32:27.6089 INFO Param names:  measure periodo 
+2018-06-18 12:32:27.6314 INFO Rserve result: 6 rows, hashid (13505680) 
+2018-06-18 12:32:27.6314 DEBUG Took 21 ms, hashid (13505680) 
+2018-06-18 12:32:27.6889 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (31626309) 
+2018-06-18 12:32:27.6889 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 12:32:27.6889 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=7))[,1]; 
+2018-06-18 12:32:27.6889 INFO Param names:  measure periodo 
+2018-06-18 12:32:27.7114 INFO Rserve result: 7 rows, hashid (31626309) 
+2018-06-18 12:32:27.7114 DEBUG Took 23 ms, hashid (31626309) 
+2018-06-18 12:32:30.3063 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (57869174) 
+2018-06-18 12:32:30.3063 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 12:32:30.3063 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=8))[,1]; 
+2018-06-18 12:32:30.3063 INFO Param names:  measure periodo 
+2018-06-18 12:32:30.3288 INFO Rserve result: 8 rows, hashid (57869174) 
+2018-06-18 12:32:30.3288 DEBUG Took 24 ms, hashid (57869174) 
+2018-06-18 12:32:30.3413 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (10208630) 
+2018-06-18 12:32:30.3413 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 12:32:30.3413 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=10))[,1]; 
+2018-06-18 12:32:30.3413 INFO Param names:  measure periodo 
+2018-06-18 12:32:30.3738 INFO Rserve result: 10 rows, hashid (10208630) 
+2018-06-18 12:32:30.3738 DEBUG Took 31 ms, hashid (10208630) 
+2018-06-18 12:32:31.5726 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (45021004) 
+2018-06-18 12:32:31.5726 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 12:32:31.5726 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=12))[,1]; 
+2018-06-18 12:32:31.5726 INFO Param names:  measure periodo 
+2018-06-18 12:32:31.6001 INFO Rserve result: 12 rows, hashid (45021004) 
+2018-06-18 12:32:31.6001 DEBUG Took 27 ms, hashid (45021004) 
+2018-06-18 12:32:44.8453 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (16060410) 
+2018-06-18 12:32:44.8453 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 12:32:44.8453 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=11))[,1]; 
+2018-06-18 12:32:44.8453 INFO Param names:  measure periodo 
+2018-06-18 12:32:44.8703 INFO Rserve result: 11 rows, hashid (16060410) 
+2018-06-18 12:32:44.8703 DEBUG Took 24 ms, hashid (16060410) 
+2018-06-18 12:32:45.8312 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (43028153) 
+2018-06-18 12:32:45.8312 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 12:32:45.8312 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=8))[,1]; 
+2018-06-18 12:32:45.8312 INFO Param names:  measure periodo 
+2018-06-18 12:32:45.8587 INFO Rserve result: 8 rows, hashid (43028153) 
+2018-06-18 12:32:45.8587 DEBUG Took 27 ms, hashid (43028153) 
+2018-06-18 12:32:46.8542 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (36685625) 
+2018-06-18 12:32:46.8542 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 12:32:46.8542 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=5))[,1]; 
+2018-06-18 12:32:46.8542 INFO Param names:  measure periodo 
+2018-06-18 12:32:46.8767 INFO Rserve result: 5 rows, hashid (36685625) 
+2018-06-18 12:32:46.8767 DEBUG Took 23 ms, hashid (36685625) 
+2018-06-18 12:32:48.2556 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (10705893) 
+2018-06-18 12:32:48.2556 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 12:32:48.2556 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=4))[,1]; 
+2018-06-18 12:32:48.2556 INFO Param names:  measure periodo 
+2018-06-18 12:32:48.2862 INFO Rserve result: 4 rows, hashid (10705893) 
+2018-06-18 12:32:48.2862 DEBUG Took 18 ms, hashid (10705893) 
+2018-06-18 12:32:49.5350 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (6256157) 
+2018-06-18 12:32:49.5350 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 12:32:49.5350 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=2))[,1]; 
+2018-06-18 12:32:49.5350 INFO Param names:  measure periodo 
+2018-06-18 12:32:49.5450 INFO Rserve result: 2 rows, hashid (6256157) 
+2018-06-18 12:32:49.5450 DEBUG Took 16 ms, hashid (6256157) 
+2018-06-18 12:32:50.2182 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (21056633) 
+2018-06-18 12:32:50.2182 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 12:32:50.2182 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1]; 
+2018-06-18 12:32:50.2182 INFO Param names:  measure periodo 
+2018-06-18 12:32:50.2538 INFO Rserve result: 1 rows, hashid (21056633) 
+2018-06-18 12:32:50.2538 DEBUG Took 21 ms, hashid (21056633) 
+2018-06-18 12:33:36.4173 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (59377419) 
+2018-06-18 12:33:36.4173 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 12:33:36.4173 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1]; 
+2018-06-18 12:33:36.4173 INFO Param names:  measure periodo 
+2018-06-18 12:33:36.4348 INFO Rserve result: 1 rows, hashid (59377419) 
+2018-06-18 12:33:36.4348 DEBUG Took 17 ms, hashid (59377419) 
+2018-06-18 12:35:11.5677 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (29069724) 
+2018-06-18 12:35:11.5677 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 12:35:11.5677 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1]; 
+2018-06-18 12:35:11.5677 INFO Param names:  measure periodo 
+2018-06-18 12:35:11.5927 INFO Rserve result: 1 rows, hashid (29069724) 
+2018-06-18 12:35:11.5927 DEBUG Took 23 ms, hashid (29069724) 
+2018-06-18 12:35:24.6821 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (46361581) 
+2018-06-18 12:35:24.6821 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 12:35:24.6821 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=2))[,1]; 
+2018-06-18 12:35:24.6821 INFO Param names:  measure periodo 
+2018-06-18 12:35:24.6971 INFO Rserve result: 2 rows, hashid (46361581) 
+2018-06-18 12:35:24.6971 DEBUG Took 16 ms, hashid (46361581) 
+2018-06-18 12:35:24.8471 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (25364471) 
+2018-06-18 12:35:24.8471 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 12:35:24.8471 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=3))[,1]; 
+2018-06-18 12:35:24.8471 INFO Param names:  measure periodo 
+2018-06-18 12:35:24.8646 INFO Rserve result: 3 rows, hashid (25364471) 
+2018-06-18 12:35:24.8646 DEBUG Took 17 ms, hashid (25364471) 
+2018-06-18 12:37:54.1747 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (36488747) 
+2018-06-18 12:37:54.1747 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 12:37:54.1747 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1]; 
+2018-06-18 12:37:54.1747 INFO Param names:  measure periodo 
+2018-06-18 12:37:54.2234 INFO Rserve result: 1 rows, hashid (36488747) 
+2018-06-18 12:37:54.2234 DEBUG Took 23 ms, hashid (36488747) 
+2018-06-18 14:05:43.7940 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (66592690) 
+2018-06-18 14:05:43.7940 DEBUG EvaluateScript header info: AppId (8453238b-5136-4b19-9e01-ad5d3ee11bc9), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 14:05:43.7940 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=12))[,1]; 
+2018-06-18 14:05:43.7940 INFO Param names:  measure periodo 
+2018-06-18 14:05:43.8240 INFO Rserve result: 12 rows, hashid (66592690) 
+2018-06-18 14:05:43.8240 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (37686956) 
+2018-06-18 14:05:43.8240 DEBUG EvaluateScript header info: AppId (8453238b-5136-4b19-9e01-ad5d3ee11bc9), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 14:05:43.8240 INFO Evaluating qslm <- lm(dependent ~ independent, q);new.q <- data.frame(independent=c(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17));p <- predict(qslm,newdata=new.q, interval="prediction");p[,1]; 
+2018-06-18 14:05:43.8240 INFO Param names:  dependent independent 
+2018-06-18 14:05:43.8240 DEBUG Took 30 ms, hashid (66592690) 
+2018-06-18 14:05:43.8415 INFO Rserve result: 17 rows, hashid (37686956) 
+2018-06-18 14:05:43.8415 DEBUG Took 16 ms, hashid (37686956) 
+2018-06-18 14:09:39.0060 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (672884) 
+2018-06-18 14:09:39.0085 DEBUG EvaluateScript header info: AppId (8453238b-5136-4b19-9e01-ad5d3ee11bc9), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 14:09:39.0085 INFO Evaluating qslm <- lm(dependent ~ independent, q);new.q <- data.frame(independent=c(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17));p <- predict(qslm,newdata=new.q, interval="prediction");p[,1]; 
+2018-06-18 14:09:39.0085 INFO Param names:  dependent independent 
+2018-06-18 14:09:39.0085 INFO Rserve result: 17 rows, hashid (672884) 
+2018-06-18 14:09:39.0085 DEBUG Took 6 ms, hashid (672884) 
+2018-06-18 14:09:41.4460 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (38354393) 
+2018-06-18 14:09:41.4460 DEBUG EvaluateScript header info: AppId (8453238b-5136-4b19-9e01-ad5d3ee11bc9), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 14:09:41.4460 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=7))[,1]; 
+2018-06-18 14:09:41.4460 INFO Param names:  measure periodo 
+2018-06-18 14:09:41.4735 INFO Rserve result: 7 rows, hashid (38354393) 
+2018-06-18 14:09:41.4735 DEBUG Took 26 ms, hashid (38354393) 
+2018-06-18 14:09:42.5578 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (38716773) 
+2018-06-18 14:09:42.5578 DEBUG EvaluateScript header info: AppId (8453238b-5136-4b19-9e01-ad5d3ee11bc9), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 14:09:42.5578 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=6))[,1]; 
+2018-06-18 14:09:42.5578 INFO Param names:  measure periodo 
+2018-06-18 14:09:42.5778 INFO Rserve result: 6 rows, hashid (38716773) 
+2018-06-18 14:09:42.5778 DEBUG Took 23 ms, hashid (38716773) 
+2018-06-18 14:09:42.7253 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (59372441) 
+2018-06-18 14:09:42.7253 DEBUG EvaluateScript header info: AppId (8453238b-5136-4b19-9e01-ad5d3ee11bc9), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 14:09:42.7253 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=5))[,1]; 
+2018-06-18 14:09:42.7253 INFO Param names:  measure periodo 
+2018-06-18 14:09:42.7478 INFO Rserve result: 5 rows, hashid (59372441) 
+2018-06-18 14:09:42.7478 DEBUG Took 24 ms, hashid (59372441) 
+2018-06-18 14:09:43.9804 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (28785966) 
+2018-06-18 14:09:43.9804 DEBUG EvaluateScript header info: AppId (8453238b-5136-4b19-9e01-ad5d3ee11bc9), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 14:09:43.9804 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=4))[,1]; 
+2018-06-18 14:09:43.9804 INFO Param names:  measure periodo 
+2018-06-18 14:09:43.9979 INFO Rserve result: 4 rows, hashid (28785966) 
+2018-06-18 14:09:43.9979 DEBUG Took 18 ms, hashid (28785966) 
+2018-06-18 14:09:44.0904 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (30187349) 
+2018-06-18 14:09:44.0904 DEBUG EvaluateScript header info: AppId (8453238b-5136-4b19-9e01-ad5d3ee11bc9), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 14:09:44.0904 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1]; 
+2018-06-18 14:09:44.0904 INFO Param names:  measure periodo 
+2018-06-18 14:09:44.1154 INFO Rserve result: 1 rows, hashid (30187349) 
+2018-06-18 14:09:44.1154 DEBUG Took 24 ms, hashid (30187349) 
+2018-06-18 14:09:46.8741 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (42957302) 
+2018-06-18 14:09:46.8741 DEBUG EvaluateScript header info: AppId (8453238b-5136-4b19-9e01-ad5d3ee11bc9), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 14:09:46.8741 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=2))[,1]; 
+2018-06-18 14:09:46.8741 INFO Param names:  measure periodo 
+2018-06-18 14:09:46.8916 INFO Rserve result: 2 rows, hashid (42957302) 
+2018-06-18 14:09:46.8916 DEBUG Took 26 ms, hashid (42957302) 
+2018-06-18 14:09:47.8755 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (32647156) 
+2018-06-18 14:09:47.8755 DEBUG EvaluateScript header info: AppId (8453238b-5136-4b19-9e01-ad5d3ee11bc9), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 14:09:47.8755 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1]; 
+2018-06-18 14:09:47.8755 INFO Param names:  measure periodo 
+2018-06-18 14:09:47.8930 INFO Rserve result: 1 rows, hashid (32647156) 
+2018-06-18 14:09:47.8930 DEBUG Took 18 ms, hashid (32647156) 
+2018-06-18 14:10:43.3847 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (48948582) 
+2018-06-18 14:10:43.3847 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 14:10:43.3847 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=4))[,1]; 
+2018-06-18 14:10:43.3847 INFO Param names:  measure periodo 
+2018-06-18 14:10:43.4097 INFO Rserve result: 4 rows, hashid (48948582) 
+2018-06-18 14:10:43.4097 DEBUG Took 22 ms, hashid (48948582) 
+2018-06-18 14:10:43.4622 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (38605790) 
+2018-06-18 14:10:43.4622 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 14:10:43.4622 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=5))[,1]; 
+2018-06-18 14:10:43.4622 INFO Param names:  measure periodo 
+2018-06-18 14:10:43.4822 INFO Rserve result: 5 rows, hashid (38605790) 
+2018-06-18 14:10:43.4822 DEBUG Took 20 ms, hashid (38605790) 
+2018-06-18 14:11:02.1838 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (53046438) 
+2018-06-18 14:11:02.1838 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 14:11:02.1838 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1]; 
+2018-06-18 14:11:02.1838 INFO Param names:  measure periodo 
+2018-06-18 14:11:02.2200 INFO Rserve result: 1 rows, hashid (53046438) 
+2018-06-18 14:11:02.2200 DEBUG Took 19 ms, hashid (53046438) 
+2018-06-18 14:12:25.0461 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (3748093) 
+2018-06-18 14:12:25.0461 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 14:12:25.0461 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=6))[,1]; 
+2018-06-18 14:12:25.0461 INFO Param names:  measure periodo 
+2018-06-18 14:12:25.0811 INFO Rserve result: 6 rows, hashid (3748093) 
+2018-06-18 14:12:25.0811 DEBUG Took 34 ms, hashid (3748093) 
+2018-06-18 14:12:27.6265 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (12314717) 
+2018-06-18 14:12:27.6265 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 14:12:27.6265 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=7))[,1]; 
+2018-06-18 14:12:27.6265 INFO Param names:  measure periodo 
+2018-06-18 14:12:27.6515 INFO Rserve result: 7 rows, hashid (12314717) 
+2018-06-18 14:12:27.6515 DEBUG Took 24 ms, hashid (12314717) 
+2018-06-18 14:12:28.6156 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (30850230) 
+2018-06-18 14:12:28.6156 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 14:12:28.6156 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=8))[,1]; 
+2018-06-18 14:12:28.6156 INFO Param names:  measure periodo 
+2018-06-18 14:12:28.6381 INFO Rserve result: 8 rows, hashid (30850230) 
+2018-06-18 14:12:28.6381 DEBUG Took 22 ms, hashid (30850230) 
+2018-06-18 14:12:29.7649 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (13632691) 
+2018-06-18 14:12:29.7649 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 14:12:29.7649 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=10))[,1]; 
+2018-06-18 14:12:29.7649 INFO Param names:  measure periodo 
+2018-06-18 14:12:29.8086 INFO Rserve result: 10 rows, hashid (13632691) 
+2018-06-18 14:12:29.8086 DEBUG Took 29 ms, hashid (13632691) 
+2018-06-18 14:12:30.8708 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (38865907) 
+2018-06-18 14:12:30.8708 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 14:12:30.8708 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=11))[,1]; 
+2018-06-18 14:12:30.8708 INFO Param names:  measure periodo 
+2018-06-18 14:12:30.9170 INFO Rserve result: 11 rows, hashid (38865907) 
+2018-06-18 14:12:30.9170 DEBUG Took 25 ms, hashid (38865907) 
+2018-06-18 14:12:31.5729 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (764241) 
+2018-06-18 14:12:31.5729 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (13 rows) 
+2018-06-18 14:12:31.5729 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=12))[,1]; 
+2018-06-18 14:12:31.5729 INFO Param names:  measure periodo 
+2018-06-18 14:12:31.6004 INFO Rserve result: 12 rows, hashid (764241) 
+2018-06-18 14:12:31.6004 DEBUG Took 27 ms, hashid (764241) 
+2018-06-18 14:13:07.5665 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (43561756) 
+2018-06-18 14:13:07.5665 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:13:07.5665 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=12))[,1]; 
+2018-06-18 14:13:07.5665 INFO Param names:  measure periodo 
+2018-06-18 14:13:07.6140 INFO Rserve result: 12 rows, hashid (43561756) 
+2018-06-18 14:13:07.6140 DEBUG Took 48 ms, hashid (43561756) 
+2018-06-18 14:13:15.8092 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (67101022) 
+2018-06-18 14:13:15.8092 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:13:15.8092 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=8))[,1]; 
+2018-06-18 14:13:15.8092 INFO Param names:  measure periodo 
+2018-06-18 14:13:15.8367 INFO Rserve result: 8 rows, hashid (67101022) 
+2018-06-18 14:13:15.8367 DEBUG Took 27 ms, hashid (67101022) 
+2018-06-18 14:13:16.9380 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (66661912) 
+2018-06-18 14:13:16.9380 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:13:16.9380 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=7))[,1]; 
+2018-06-18 14:13:16.9380 INFO Param names:  measure periodo 
+2018-06-18 14:13:16.9605 INFO Rserve result: 7 rows, hashid (66661912) 
+2018-06-18 14:13:16.9605 DEBUG Took 22 ms, hashid (66661912) 
+2018-06-18 14:13:17.2930 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (41632643) 
+2018-06-18 14:13:17.2930 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:13:17.2930 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=6))[,1]; 
+2018-06-18 14:13:17.2930 INFO Param names:  measure periodo 
+2018-06-18 14:13:17.3130 INFO Rserve result: 6 rows, hashid (41632643) 
+2018-06-18 14:13:17.3130 DEBUG Took 19 ms, hashid (41632643) 
+2018-06-18 14:13:18.1236 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (24250448) 
+2018-06-18 14:13:18.1236 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:13:18.1236 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=5))[,1]; 
+2018-06-18 14:13:18.1236 INFO Param names:  measure periodo 
+2018-06-18 14:13:18.1436 INFO Rserve result: 5 rows, hashid (24250448) 
+2018-06-18 14:13:18.1436 DEBUG Took 19 ms, hashid (24250448) 
+2018-06-18 14:13:18.5011 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (40098280) 
+2018-06-18 14:13:18.5036 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:13:18.5036 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=4))[,1]; 
+2018-06-18 14:13:18.5036 INFO Param names:  measure periodo 
+2018-06-18 14:13:18.5386 INFO Rserve result: 4 rows, hashid (40098280) 
+2018-06-18 14:13:18.5386 DEBUG Took 35 ms, hashid (40098280) 
+2018-06-18 14:13:20.0656 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (3900587) 
+2018-06-18 14:13:20.0656 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:13:20.0656 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=3))[,1]; 
+2018-06-18 14:13:20.0656 INFO Param names:  measure periodo 
+2018-06-18 14:13:20.0806 INFO Rserve result: 3 rows, hashid (3900587) 
+2018-06-18 14:13:20.0806 DEBUG Took 17 ms, hashid (3900587) 
+2018-06-18 14:13:20.4656 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (21006899) 
+2018-06-18 14:13:20.4656 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:13:20.4656 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1]; 
+2018-06-18 14:13:20.4656 INFO Param names:  measure periodo 
+2018-06-18 14:13:20.4806 INFO Rserve result: 1 rows, hashid (21006899) 
+2018-06-18 14:13:20.4806 DEBUG Took 14 ms, hashid (21006899) 
+2018-06-18 14:13:57.1905 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (56542610) 
+2018-06-18 14:13:57.1905 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:13:57.1905 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1]; 
+2018-06-18 14:13:57.1905 INFO Param names:  measure periodo 
+2018-06-18 14:13:57.2105 INFO Rserve result: 1 rows, hashid (56542610) 
+2018-06-18 14:13:57.2105 DEBUG Took 20 ms, hashid (56542610) 
+2018-06-18 14:20:43.9973 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (1703311) 
+2018-06-18 14:20:43.9973 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:20:43.9973 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1];write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT"); 
+2018-06-18 14:20:43.9973 INFO Param names:  measure periodo 
+2018-06-18 14:20:58.1971 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:20:58.1971 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (29682722) 
+2018-06-18 14:20:58.1971 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:20:58.2127 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1];write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT"); 
+2018-06-18 14:20:58.2127 INFO Param names:  measure periodo 
+2018-06-18 14:20:58.2127 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:20:58.2127 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (11076110) 
+2018-06-18 14:20:58.2127 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:20:58.2127 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1];write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT"); 
+2018-06-18 14:20:58.2127 INFO Param names:  measure periodo 
+2018-06-18 14:20:58.2283 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:20:58.2283 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (35721080) 
+2018-06-18 14:20:58.2283 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:20:58.2283 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1];write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT"); 
+2018-06-18 14:20:58.2283 INFO Param names:  measure periodo 
+2018-06-18 14:20:58.2283 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:20:58.2283 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (37702585) 
+2018-06-18 14:20:58.2283 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:20:58.2283 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1];write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT"); 
+2018-06-18 14:20:58.2283 INFO Param names:  measure periodo 
+2018-06-18 14:20:58.2439 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:20:58.2439 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (47344677) 
+2018-06-18 14:20:58.2439 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:20:58.2439 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1];write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT"); 
+2018-06-18 14:20:58.2439 INFO Param names:  measure periodo 
+2018-06-18 14:20:58.2595 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:20:58.2595 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (62666951) 
+2018-06-18 14:20:58.2595 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:20:58.2595 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1];write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT"); 
+2018-06-18 14:20:58.2595 INFO Param names:  measure periodo 
+2018-06-18 14:20:58.2595 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:20:58.2595 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (9359138) 
+2018-06-18 14:20:58.2595 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:20:58.2595 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1];write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT"); 
+2018-06-18 14:20:58.2595 INFO Param names:  measure periodo 
+2018-06-18 14:20:58.2595 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:20:58.2595 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (26297073) 
+2018-06-18 14:20:58.2595 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:20:58.2595 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1];write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT"); 
+2018-06-18 14:20:58.2595 INFO Param names:  measure periodo 
+2018-06-18 14:20:58.2751 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:20:58.2751 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (10734822) 
+2018-06-18 14:20:58.2751 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:20:58.2751 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1];write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT"); 
+2018-06-18 14:20:58.2751 INFO Param names:  measure periodo 
+2018-06-18 14:20:58.2751 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:21:07.9081 INFO Connected to RServe 127.0.0.1:6311 with user (empty user) 
+2018-06-18 14:22:18.6375 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (48183150) 
+2018-06-18 14:22:18.6375 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:22:18.6375 INFO Evaluating library(TTR); library(forecast);write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT")data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1];; 
+2018-06-18 14:22:18.6375 INFO Param names:  measure periodo 
+2018-06-18 14:22:22.5007 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:22:22.5007 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (52083050) 
+2018-06-18 14:22:22.5007 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:22:22.5007 INFO Evaluating library(TTR); library(forecast);write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT")data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1];; 
+2018-06-18 14:22:22.5007 INFO Param names:  measure periodo 
+2018-06-18 14:22:22.5163 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:22:22.5163 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (60747511) 
+2018-06-18 14:22:22.5163 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:22:22.5163 INFO Evaluating library(TTR); library(forecast);write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT")data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1];; 
+2018-06-18 14:22:22.5163 INFO Param names:  measure periodo 
+2018-06-18 14:22:22.5163 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:22:22.5163 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (18096166) 
+2018-06-18 14:22:22.5163 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:22:22.5163 INFO Evaluating library(TTR); library(forecast);write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT")data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1];; 
+2018-06-18 14:22:22.5163 INFO Param names:  measure periodo 
+2018-06-18 14:22:22.5319 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:22:22.5319 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (886211) 
+2018-06-18 14:22:22.5319 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:22:22.5319 INFO Evaluating library(TTR); library(forecast);write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT")data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1];; 
+2018-06-18 14:22:22.5319 INFO Param names:  measure periodo 
+2018-06-18 14:22:22.5475 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:22:22.5475 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (38976529) 
+2018-06-18 14:22:22.5475 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:22:22.5475 INFO Evaluating library(TTR); library(forecast);write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT")data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1];; 
+2018-06-18 14:22:22.5475 INFO Param names:  measure periodo 
+2018-06-18 14:22:22.5631 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:22:22.5631 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (18092939) 
+2018-06-18 14:22:22.5631 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:22:22.5631 INFO Evaluating library(TTR); library(forecast);write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT")data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1];; 
+2018-06-18 14:22:22.5631 INFO Param names:  measure periodo 
+2018-06-18 14:22:22.5631 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:22:22.5631 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (7204771) 
+2018-06-18 14:22:22.5631 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:22:22.5631 INFO Evaluating library(TTR); library(forecast);write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT")data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1];; 
+2018-06-18 14:22:22.5631 INFO Param names:  measure periodo 
+2018-06-18 14:22:22.5631 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:22:22.5631 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (14869382) 
+2018-06-18 14:22:22.5631 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:22:22.5631 INFO Evaluating library(TTR); library(forecast);write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT")data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1];; 
+2018-06-18 14:22:22.5631 INFO Param names:  measure periodo 
+2018-06-18 14:22:22.5631 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:22:22.5631 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (27507925) 
+2018-06-18 14:22:22.5631 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:22:22.5631 INFO Evaluating library(TTR); library(forecast);write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT")data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1];; 
+2018-06-18 14:22:22.5631 INFO Param names:  measure periodo 
+2018-06-18 14:22:22.5787 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:22:28.1475 INFO Connected to RServe 127.0.0.1:6311 with user (empty user) 
+2018-06-18 14:23:02.9247 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (41430125) 
+2018-06-18 14:23:02.9247 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:23:02.9247 INFO Evaluating library(TTR); library(forecast);write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT");data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1];; 
+2018-06-18 14:23:02.9247 INFO Param names:  measure periodo 
+2018-06-18 14:23:16.7567 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:23:16.7567 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (12729631) 
+2018-06-18 14:23:16.7567 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:23:16.7567 INFO Evaluating library(TTR); library(forecast);write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT");data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1];; 
+2018-06-18 14:23:16.7567 INFO Param names:  measure periodo 
+2018-06-18 14:23:16.7723 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:23:16.7723 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (38422647) 
+2018-06-18 14:23:16.7723 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:23:16.7723 INFO Evaluating library(TTR); library(forecast);write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT");data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1];; 
+2018-06-18 14:23:16.7723 INFO Param names:  measure periodo 
+2018-06-18 14:23:16.7723 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:23:16.7723 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (52468088) 
+2018-06-18 14:23:16.7723 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:23:16.7723 INFO Evaluating library(TTR); library(forecast);write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT");data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1];; 
+2018-06-18 14:23:16.7723 INFO Param names:  measure periodo 
+2018-06-18 14:23:16.7723 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:23:16.7723 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (30240093) 
+2018-06-18 14:23:16.7723 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:23:16.7723 INFO Evaluating library(TTR); library(forecast);write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT");data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1];; 
+2018-06-18 14:23:16.7723 INFO Param names:  measure periodo 
+2018-06-18 14:23:16.7723 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:23:16.7723 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (18842200) 
+2018-06-18 14:23:16.7723 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:23:16.7723 INFO Evaluating library(TTR); library(forecast);write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT");data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1];; 
+2018-06-18 14:23:16.7723 INFO Param names:  measure periodo 
+2018-06-18 14:23:16.7723 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:23:16.7723 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (51176534) 
+2018-06-18 14:23:16.7723 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:23:16.7723 INFO Evaluating library(TTR); library(forecast);write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT");data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1];; 
+2018-06-18 14:23:16.7723 INFO Param names:  measure periodo 
+2018-06-18 14:23:16.7723 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:23:16.7879 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (19474360) 
+2018-06-18 14:23:16.7879 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:23:16.7879 INFO Evaluating library(TTR); library(forecast);write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT");data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1];; 
+2018-06-18 14:23:16.7879 INFO Param names:  measure periodo 
+2018-06-18 14:23:16.8035 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:23:16.8035 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (17809946) 
+2018-06-18 14:23:16.8035 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:23:16.8035 INFO Evaluating library(TTR); library(forecast);write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT");data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1];; 
+2018-06-18 14:23:16.8035 INFO Param names:  measure periodo 
+2018-06-18 14:23:16.8191 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:23:16.8191 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (11055376) 
+2018-06-18 14:23:16.8191 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:23:16.8191 INFO Evaluating library(TTR); library(forecast);write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT");data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1];; 
+2018-06-18 14:23:16.8191 INFO Param names:  measure periodo 
+2018-06-18 14:23:16.8191 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:23:24.3964 ERROR Reconnect to Rserve failed (Socket error): Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder 
+2018-06-18 14:23:29.4040 INFO Connected to RServe 127.0.0.1:6311 with user (empty user) 
+2018-06-18 14:23:40.9572 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (21044963) 
+2018-06-18 14:23:40.9572 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:23:40.9572 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1];; 
+2018-06-18 14:23:40.9572 INFO Param names:  measure periodo 
+2018-06-18 14:23:40.9572 WARN Rserve error: Error received from server: R parser: syntax error 
+2018-06-18 14:23:40.9622 WARN Rserve Traceback:  
+2018-06-18 14:24:00.0716 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (58261743) 
+2018-06-18 14:24:00.0716 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:24:00.0716 INFO Evaluating library(TTR); library(forecast);data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1]; 
+2018-06-18 14:24:00.0716 INFO Param names:  measure periodo 
+2018-06-18 14:24:01.6049 INFO Rserve result: 1 rows, hashid (58261743) 
+2018-06-18 14:24:01.6049 DEBUG Took 1518 ms, hashid (58261743) 
+2018-06-18 14:24:13.6147 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (32585047) 
+2018-06-18 14:24:13.6147 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:24:13.6147 INFO Evaluating library(TTR); library(forecast);write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT");data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1]; 
+2018-06-18 14:24:13.6147 INFO Param names:  measure periodo 
+2018-06-18 14:24:18.1994 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:24:18.2150 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (26463846) 
+2018-06-18 14:24:18.2150 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:24:18.2150 INFO Evaluating library(TTR); library(forecast);write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT");data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1]; 
+2018-06-18 14:24:18.2150 INFO Param names:  measure periodo 
+2018-06-18 14:24:18.2150 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:24:18.2150 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (25965317) 
+2018-06-18 14:24:18.2150 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:24:18.2150 INFO Evaluating library(TTR); library(forecast);write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT");data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1]; 
+2018-06-18 14:24:18.2150 INFO Param names:  measure periodo 
+2018-06-18 14:24:18.2150 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:24:18.2150 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (43620318) 
+2018-06-18 14:24:18.2150 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:24:18.2150 INFO Evaluating library(TTR); library(forecast);write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT");data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1]; 
+2018-06-18 14:24:18.2150 INFO Param names:  measure periodo 
+2018-06-18 14:24:18.2306 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:24:18.2306 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (15173651) 
+2018-06-18 14:24:18.2306 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:24:18.2306 INFO Evaluating library(TTR); library(forecast);write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT");data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1]; 
+2018-06-18 14:24:18.2306 INFO Param names:  measure periodo 
+2018-06-18 14:24:18.2462 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:24:18.2462 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (4582912) 
+2018-06-18 14:24:18.2462 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:24:18.2462 INFO Evaluating library(TTR); library(forecast);write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT");data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1]; 
+2018-06-18 14:24:18.2462 INFO Param names:  measure periodo 
+2018-06-18 14:24:18.2462 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:24:18.2462 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (64678392) 
+2018-06-18 14:24:18.2462 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:24:18.2462 INFO Evaluating library(TTR); library(forecast);write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT");data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1]; 
+2018-06-18 14:24:18.2462 INFO Param names:  measure periodo 
+2018-06-18 14:24:18.2462 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:24:18.2462 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (60040967) 
+2018-06-18 14:24:18.2462 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:24:18.2462 INFO Evaluating library(TTR); library(forecast);write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT");data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1]; 
+2018-06-18 14:24:18.2462 INFO Param names:  measure periodo 
+2018-06-18 14:24:18.2462 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:24:18.2462 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (33349037) 
+2018-06-18 14:24:18.2462 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:24:18.2462 INFO Evaluating library(TTR); library(forecast);write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT");data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1]; 
+2018-06-18 14:24:18.2462 INFO Param names:  measure periodo 
+2018-06-18 14:24:18.2462 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:24:18.2462 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (46740648) 
+2018-06-18 14:24:18.2462 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:24:18.2462 INFO Evaluating library(TTR); library(forecast);write(q$measure,file="C:\Users\E705732\Desktop\Nueva carpeta\A.TXT");data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1]; 
+2018-06-18 14:24:18.2462 INFO Param names:  measure periodo 
+2018-06-18 14:24:18.2618 WARN Rserve error: Se ha forzado la interrupción de una conexión existente por el host remoto 
+2018-06-18 14:24:25.6620 ERROR Reconnect to Rserve failed (Socket error): Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder 
+2018-06-18 14:24:31.6836 ERROR Reconnect to Rserve failed (Socket error): Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder 
+2018-06-18 14:24:36.6912 INFO Connected to RServe 127.0.0.1:6311 with user (empty user) 
+2018-06-18 14:25:32.0324 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (4140970) 
+2018-06-18 14:25:32.0324 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:25:32.0324 INFO Evaluating library(TTR); library(forecast);write(q$measure,file="C:\\Users\\E705732\\Desktop\\Nueva carpeta\\A.TXT");data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1]; 
+2018-06-18 14:25:32.0324 INFO Param names:  measure periodo 
+2018-06-18 14:25:32.9436 INFO Rserve result: 1 rows, hashid (4140970) 
+2018-06-18 14:25:32.9436 DEBUG Took 889 ms, hashid (4140970) 
+2018-06-18 14:27:51.7217 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (34708722) 
+2018-06-18 14:27:51.7217 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:27:51.7217 INFO Evaluating library(TTR); library(forecast);write(q,file="C:\\Users\\E705732\\Desktop\\Nueva carpeta\\A.TXT");data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1]; 
+2018-06-18 14:27:51.7217 INFO Param names:  measure periodo 
+2018-06-18 14:27:51.7367 WARN Rserve error: Error in cat(x, file = file, sep = c(rep.int(sep, ncolumns - 1), "\n"),  : 
+  argument 1 (type 'list') cannot be handled by 'cat'
+ 
+2018-06-18 14:28:32.4157 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (25746461) 
+2018-06-18 14:28:32.4157 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:28:32.4157 INFO Evaluating library(TTR); library(forecast);write(q$periodo,file="C:\\Users\\E705732\\Desktop\\Nueva carpeta\\A.TXT");data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=1))[,1]; 
+2018-06-18 14:28:32.4157 INFO Param names:  measure periodo 
+2018-06-18 14:28:32.4582 INFO Rserve result: 1 rows, hashid (25746461) 
+2018-06-18 14:28:32.4582 DEBUG Took 40 ms, hashid (25746461) 
+2018-06-18 14:35:39.0148 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (58262188) 
+2018-06-18 14:35:39.0148 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:35:39.0148 INFO Evaluating library(TTR); library(forecast);write(q$periodo,file="C:\\Users\\E705732\\Desktop\\Nueva carpeta\\A.TXT");data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=2))[,1]; 
+2018-06-18 14:35:39.0148 INFO Param names:  measure periodo 
+2018-06-18 14:35:39.0398 INFO Rserve result: 2 rows, hashid (58262188) 
+2018-06-18 14:35:39.0398 DEBUG Took 25 ms, hashid (58262188) 
+2018-06-18 14:35:42.9599 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (32610393) 
+2018-06-18 14:35:42.9599 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:35:42.9599 INFO Evaluating library(TTR); library(forecast);write(q$periodo,file="C:\\Users\\E705732\\Desktop\\Nueva carpeta\\A.TXT");data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=3))[,1]; 
+2018-06-18 14:35:42.9599 INFO Param names:  measure periodo 
+2018-06-18 14:35:42.9799 INFO Rserve result: 3 rows, hashid (32610393) 
+2018-06-18 14:35:42.9799 DEBUG Took 21 ms, hashid (32610393) 
+2018-06-18 14:35:44.4650 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (46853094) 
+2018-06-18 14:35:44.4650 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:35:44.4650 INFO Evaluating library(TTR); library(forecast);write(q$periodo,file="C:\\Users\\E705732\\Desktop\\Nueva carpeta\\A.TXT");data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=4))[,1]; 
+2018-06-18 14:35:44.4650 INFO Param names:  measure periodo 
+2018-06-18 14:35:44.4900 INFO Rserve result: 4 rows, hashid (46853094) 
+2018-06-18 14:35:44.4900 DEBUG Took 24 ms, hashid (46853094) 
+2018-06-18 14:35:46.5192 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (53380684) 
+2018-06-18 14:35:46.5192 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:35:46.5192 INFO Evaluating library(TTR); library(forecast);write(q$periodo,file="C:\\Users\\E705732\\Desktop\\Nueva carpeta\\A.TXT");data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=5))[,1]; 
+2018-06-18 14:35:46.5192 INFO Param names:  measure periodo 
+2018-06-18 14:35:46.5417 INFO Rserve result: 5 rows, hashid (53380684) 
+2018-06-18 14:35:46.5417 DEBUG Took 24 ms, hashid (53380684) 
+2018-06-18 14:35:51.5318 INFO EvaluateScript called from client (ipv6:[::1]:62530), hashid (22800124) 
+2018-06-18 14:35:51.5318 DEBUG EvaluateScript header info: AppId (945922ea-52f5-4a76-8a57-81839e5a3869), UserId (UserDirectory=TIM; UserId=e705732), Cardinality (12 rows) 
+2018-06-18 14:35:51.5318 INFO Evaluating library(TTR); library(forecast);write(q$periodo,file="C:\\Users\\E705732\\Desktop\\Nueva carpeta\\A.TXT");data.frame(forecast(HoltWinters(ts(q$measure,start=c(2017,5), frequency =6)),h=6))[,1]; 
+2018-06-18 14:35:51.5318 INFO Param names:  measure periodo 
+2018-06-18 14:35:51.5593 INFO Rserve result: 6 rows, hashid (22800124) 
+2018-06-18 14:35:51.5593 DEBUG Took 27 ms, hashid (22800124) 
+2018-06-18 14:43:54.9364 INFO Shutting down SSEtoRserve... Bye! 
+2018-06-18 14:45:37.6465 INFO No certificates defined. Opening insecure channel. 
+2018-06-18 14:45:37.6621 INFO Capabilities created: identifier (Qlik SSEtoRserve plugin), version (v1.1.0), allowScript (True), defined functions (No functions defined) 
+2018-06-18 14:45:37.6933 INFO Connected to RServe 127.0.0.1:6311 with user (empty user) 
+2018-06-18 14:45:38.2862 INFO gRPC listening on port 50051 
+2018-06-18 14:48:02.5236 INFO No certificates defined. Opening insecure channel. 
+2018-06-18 14:48:02.5392 INFO Capabilities created: identifier (Qlik SSEtoRserve plugin), version (v1.1.0), allowScript (True), defined functions (No functions defined) 
+2018-06-18 14:48:02.5704 INFO Connected to RServe 127.0.0.1:6311 with user (empty user) 
+2018-06-18 14:48:03.1632 INFO gRPC listening on port 50051 
+2018-06-18 14:49:39.4212 INFO GetCapabilities called from client (ipv6:[::1]:65171) 
+2018-06-18 14:50:13.4920 INFO Shutting down SSEtoRserve... Bye! 
+2018-06-18 14:50:19.2331 INFO No certificates defined. Opening insecure channel. 
+2018-06-18 14:50:19.2487 INFO Capabilities created: identifier (Qlik SSEtoRserve plugin), version (v1.1.0), allowScript (True), defined functions (No functions defined) 
+2018-06-18 14:50:19.2799 INFO Connected to RServe 127.0.0.1:6311 with user (empty user) 
+2018-06-18 14:50:19.8883 INFO gRPC listening on port 50051 
+2018-06-18 14:51:00.2205 INFO GetCapabilities called from client (ipv4:127.0.0.1:65230) 
+2018-06-18 14:51:07.8960 INFO Shutting down SSEtoRserve... Bye! 
+2018-06-18 14:51:55.4530 INFO No certificates defined. Opening insecure channel. 
+2018-06-18 14:51:55.4686 INFO Capabilities created: identifier (Qlik SSEtoRserve plugin), version (v1.1.0), allowScript (True), defined functions (No functions defined) 
+2018-06-18 14:51:55.4998 INFO Connected to RServe 127.0.0.1:6311 with user (empty user) 
+2018-06-18 14:51:56.2018 INFO gRPC listening on port 50051 
+2018-06-18 14:52:27.7760 INFO GetCapabilities called from client (ipv4:127.0.0.1:65322) 
+2018-06-18 14:56:02.2925 INFO No certificates defined. Opening insecure channel. 
+2018-06-18 14:56:02.3081 INFO Capabilities created: identifier (Qlik SSEtoRserve plugin), version (v1.1.0), allowScript (True), defined functions (No functions defined) 
+2018-06-18 14:56:02.3393 INFO Connected to RServe 127.0.0.1:6311 with user (empty user) 
+2018-06-18 14:56:02.9477 INFO gRPC listening on port 50051 
+2018-06-18 14:58:19.5925 INFO GetCapabilities called from client (ipv6:[::1]:65478) 
+2018-06-18 14:58:40.9297 INFO GetCapabilities called from client (ipv6:[::1]:65502) 
+2018-06-18 15:20:23.7957 INFO No certificates defined. Opening insecure channel. 
+2018-06-18 15:20:23.8113 INFO Capabilities created: identifier (Qlik SSEtoRserve plugin), version (v1.1.0), allowScript (True), defined functions (No functions defined) 
+2018-06-18 15:20:23.8425 INFO Connected to RServe 127.0.0.1:6311 with user (empty user) 
+2018-06-18 15:20:24.4353 INFO gRPC listening on port 50051 
+2018-06-18 15:21:01.4499 INFO GetCapabilities called from client (ipv6:[::1]:49778) 
+2018-06-18 15:28:37.5393 INFO GetCapabilities called from client (ipv4:127.0.0.1:50022) 
+2018-06-18 15:29:53.0993 INFO No certificates defined. Opening insecure channel. 
+2018-06-18 15:29:53.1149 INFO Capabilities created: identifier (Qlik SSEtoRserve plugin), version (v1.1.0), allowScript (True), defined functions (No functions defined) 
+2018-06-18 15:29:53.1305 INFO Connected to RServe 127.0.0.1:6311 with user (empty user) 
+2018-06-18 15:29:53.7389 INFO gRPC listening on port 50051 
+2018-06-18 15:32:56.8818 INFO Shutting down SSEtoRserve... Bye! 
+2018-06-18 15:33:02.6850 INFO No certificates defined. Opening insecure channel. 
+2018-06-18 15:33:02.6850 INFO Capabilities created: identifier (Qlik SSEtoRserve plugin), version (v1.1.0), allowScript (True), defined functions (No functions defined) 
+2018-06-18 15:33:03.3246 INFO gRPC listening on port 50051 
+2018-06-18 15:33:03.7302 ERROR Reconnect to Rserve failed (Socket error): Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder 
+2018-06-18 15:33:09.7518 ERROR Reconnect to Rserve failed (Socket error): Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder 
+2018-06-18 15:33:15.7734 ERROR Reconnect to Rserve failed (Socket error): Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder 
+2018-06-18 15:33:20.7810 INFO Connected to RServe 127.0.0.1:6311 with user (empty user) 
+2018-06-18 15:33:34.4934 INFO GetCapabilities called from client (ipv4:127.0.0.1:50090) 
+2018-06-18 15:48:16.8355 INFO No certificates defined. Opening insecure channel. 
+2018-06-18 15:48:16.8511 INFO Capabilities created: identifier (Qlik SSEtoRserve plugin), version (v1.1.0), allowScript (True), defined functions (No functions defined) 
+2018-06-18 15:48:16.8667 INFO Connected to RServe 127.0.0.1:6311 with user (empty user) 
+2018-06-18 15:48:17.4752 INFO gRPC listening on port 50051 
+2018-06-18 15:50:19.0713 INFO GetCapabilities called from client (ipv6:[::1]:49902) 
+2018-06-18 15:53:20.0078 INFO Shutting down SSEtoRserve... Bye! 
+2018-06-18 15:53:24.7817 INFO No certificates defined. Opening insecure channel. 
+2018-06-18 15:53:24.7973 INFO Capabilities created: identifier (Qlik SSEtoRserve plugin), version (v1.1.0), allowScript (True), defined functions (No functions defined) 
+2018-06-18 15:53:24.8285 INFO Connected to RServe 127.0.0.1:6311 with user (empty user) 
+2018-06-18 15:53:25.4058 INFO gRPC listening on port 50051 
+2018-06-18 16:04:53.6876 INFO Shutting down SSEtoRserve... Bye! 
+2018-06-18 16:05:05.8174 INFO No certificates defined. Opening insecure channel. 
+2018-06-18 16:05:05.8174 INFO Capabilities created: identifier (Qlik SSEtoRserve plugin), version (v1.1.0), allowScript (True), defined functions (No functions defined) 
+2018-06-18 16:05:05.8486 INFO Connected to RServe 127.0.0.1:6311 with user (empty user) 
+2018-06-18 16:05:06.4414 INFO gRPC listening on port 50051 
+2018-06-18 16:25:08.1049 INFO No certificates defined. Opening insecure channel. 
+2018-06-18 16:25:08.1205 INFO Capabilities created: identifier (Qlik SSEtoRserve plugin), version (v1.1.0), allowScript (True), defined functions (No functions defined) 
+2018-06-18 16:25:08.1517 INFO Connected to RServe 127.0.0.1:6311 with user (empty user) 
+2018-06-18 16:25:08.7757 INFO gRPC listening on port 50051 
+2018-06-18 16:26:18.1464 INFO Shutting down SSEtoRserve... Bye! 
+2018-06-18 16:40:08.6568 INFO No certificates defined. Opening insecure channel. 
+2018-06-18 16:40:08.6568 INFO Capabilities created: identifier (Qlik SSEtoRserve plugin), version (v1.1.0), allowScript (True), defined functions (No functions defined) 
+2018-06-18 16:40:08.6880 INFO Connected to RServe 127.0.0.1:6311 with user (empty user) 
+2018-06-18 16:40:09.2652 INFO gRPC listening on port 50051 
+2018-06-18 18:09:29.4276 INFO No certificates defined. Opening insecure channel. 
+2018-06-18 18:09:29.4432 INFO Capabilities created: identifier (Qlik SSEtoRserve plugin), version (v1.1.0), allowScript (True), defined functions (No functions defined) 
+2018-06-18 18:09:29.4588 INFO Connected to RServe 127.0.0.1:6311 with user (empty user) 
+2018-06-18 18:09:30.0360 INFO gRPC listening on port 50051 
+2018-06-18 18:09:42.2666 INFO GetCapabilities called from client (ipv6:[::1]:53059) 
+2018-06-18 18:11:43.1114 INFO GetCapabilities called from client (ipv6:[::1]:53078) 
+2018-06-18 18:19:33.6595 INFO No certificates defined. Opening insecure channel. 
+2018-06-18 18:19:33.6751 INFO Capabilities created: identifier (Qlik SSEtoRserve plugin), version (v1.1.0), allowScript (True), defined functions (No functions defined) 
+2018-06-18 18:19:33.7063 INFO Connected to RServe 127.0.0.1:6311 with user (empty user) 
+2018-06-18 18:19:34.2835 INFO gRPC listening on port 50051 
+2018-06-18 18:21:26.3647 INFO No certificates defined. Opening insecure channel. 
+2018-06-18 18:21:26.3803 INFO Capabilities created: identifier (Qlik SSEtoRserve plugin), version (v1.1.0), allowScript (True), defined functions (No functions defined) 
+2018-06-18 18:21:26.9887 INFO gRPC listening on port 50051 
+2018-06-18 18:22:15.5557 INFO GetCapabilities called from client (ipv6:[::1]:53381) 
+2018-06-18 18:24:05.3098 INFO Shutting down SSEtoRserve... Bye! 
+2018-06-18 18:24:05.3254 INFO Connected to RServe 127.0.0.1:6311 with user (empty user) 
+2018-06-18 18:24:52.5107 INFO Shutting down SSEtoRserve... Bye! 
