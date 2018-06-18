@@ -1,0 +1,299 @@
+﻿2018-06-16 04:31:48      Execution started.
+2018-06-16 04:31:48      Qlik Sense Server Version     12.145.3
+2018-06-16 04:31:48      CPU Target                    x64
+2018-06-16 04:31:48      Operating System              Windows Server 2012 R2 Standard  (64 bit edition)
+2018-06-16 04:31:48      Wow64 mode                    Not using Wow64
+2018-06-16 04:31:48      Language                      0409 English English
+2018-06-16 04:31:48      Country                       USA United States United States
+2018-06-16 04:31:48      MDAC Version                  6.3.9600.16384
+2018-06-16 04:31:48      MDAC Full Install Version     6.3.9600.16384
+2018-06-16 04:31:48      PreferredCompression          2
+2018-06-16 04:31:48      EnableParallelReload          1
+2018-06-16 04:31:48      ParallelizeQvdLoads           1
+2018-06-16 04:31:48      EnableFlushLog                0
+2018-06-16 04:31:48      UserLogfileCharset            65001
+2018-06-16 04:31:48      OdbcLoginTimeout              -1
+2018-06-16 04:31:48      OdbcConnectionTimeout         -1
+2018-06-16 04:31:48      LongestPossibleLine           1048576
+2018-06-16 04:31:48      ScriptWantsDbWrite            false
+2018-06-16 04:31:48      ScriptWantsExe                false
+2018-06-16 04:31:48      ICU_FOR_CHARACTER_CLASSIFICATION true
+2018-06-16 04:31:48      ICU_FOR_CODE_PAGES            true
+2018-06-16 04:31:48      ICU_FOR_COLLATION             true
+2018-06-16 04:31:48      ICU_FOR_LOCALE_INFO           true
+2018-06-16 04:31:48      ICU_FOR_SUPPORT_INFO          true
+2018-06-16 04:31:48      ICU_FOR_TIME_ZONE_INFO        true
+2018-06-16 04:31:48      LogFile CodePage Used:        65001
+2018-06-16 04:31:48      UseMemoryFillPattern          1
+2018-06-16 04:31:48      ScriptMode                    Standard (limits system access)
+2018-06-16 04:31:48      SequentialThreadCount         26
+2018-06-16 04:31:48      NumberOfCores (effective)     8
+2018-06-16 04:31:48      ReloadCodebase                Bnf
+2018-06-16 04:31:48      Reload Executed By            UserDirectory=TIM; UserId=e705732
+2018-06-16 04:31:48      Process Executing             Qlik Sense Server
+2018-06-16 04:31:48      Process ID                    3368
+2018-06-16 04:31:48      Grpc version                  5.0.0
+2018-06-16 04:31:48      Protobuf version              3.4.0
+2018-06-16 04:31:48 0002 SET ThousandSep=','
+2018-06-16 04:31:48 0003 SET DecimalSep='.'
+2018-06-16 04:31:48 0004 SET MoneyThousandSep=','
+2018-06-16 04:31:48 0005 SET MoneyDecimalSep='.'
+2018-06-16 04:31:48 0006 SET MoneyFormat='$#,##0.00;-$#,##0.00'
+2018-06-16 04:31:48 0007 SET TimeFormat='h:mm:ss TT'
+2018-06-16 04:31:48 0008 SET DateFormat='M/D/YYYY'
+2018-06-16 04:31:48 0009 SET TimestampFormat='M/D/YYYY h:mm:ss[.fff] TT'
+2018-06-16 04:31:48 0010 SET FirstWeekDay=6
+2018-06-16 04:31:48 0011 SET BrokenWeeks=1
+2018-06-16 04:31:48 0012 SET ReferenceDay=0
+2018-06-16 04:31:48 0013 SET FirstMonthOfYear=1
+2018-06-16 04:31:48 0014 SET CollationLocale='en-US'
+2018-06-16 04:31:48 0015 SET CreateSearchIndexOnReload=1
+2018-06-16 04:31:48 0016 SET MonthNames='Jan;Feb;Mar;Apr;May;Jun;Jul;Aug;Sep;Oct;Nov;Dec'
+2018-06-16 04:31:48 0017 SET LongMonthNames='January;February;March;April;May;June;July;August;September;October;November;December'
+2018-06-16 04:31:48 0018 SET DayNames='Mon;Tue;Wed;Thu;Fri;Sat;Sun'
+2018-06-16 04:31:48 0019 SET LongDayNames='Monday;Tuesday;Wednesday;Thursday;Friday;Saturday;Sunday'
+2018-06-16 04:31:48 0020 SET NumericalAbbreviation='3:k;6:M;9:G;12:T;15:P;18:E;21:Z;24:Y;-3:m;-6:μ;-9:n;-12:p;-15:f;-18:a;-21:z;-24:y'
+2018-06-16 04:31:48 0071 SUB ExtendQVDWhere(Name, ValVarName)
+2018-06-16 04:31:48 0085 SUB ExtendSQLWhere(Name, ValVarName)
+2018-06-16 04:31:48 0099 SUB BuildValueList(VarName, TableName, ColName, QuoteChrNum)
+2018-06-16 04:31:48 0117 SET YEAR_1= ''
+2018-06-16 04:31:48 0118 OdagBinding:
+2018-06-16 04:31:48 0119 LOAD * INLINE [
+2018-06-16 04:31:48 0120 VAL 
+2018-06-16 04:31:48 0121 {"quote": "", "delimiter": ""}
+2018-06-16 04:31:48 0122 ]
+2018-06-16 04:31:48      	1 fields found: VAL, 
+2018-06-16 04:31:48      1 lines fetched
+2018-06-16 04:31:48 0124 trace>> AÑO
+2018-06-16 04:31:48 0124 >> AÑO 
+2018-06-16 04:31:48 0125 
+2018-06-16 04:31:48 0126 SET YEAR_1_COLNAME='EXTRACT(YEAR FROM USAGE_DATE_START)'
+2018-06-16 04:31:48 0127 CALL BuildValueList('YEAR_1', 'OdagBinding', 'VAL', 39)
+  2018-06-16 04:31:48 0100 IF (39 = 0) THEN
+    2018-06-16 04:31:48 0103 LET CHREXPR = ' chr(' & '39' & ') '
+    2018-06-16 04:31:48 0104 LET LOADEXPR = 'Concat(  chr(39)  & VAL &  chr(39) ' & ',' & chr(39) & ',' & chr(39) & ') AS CombinedData'
+    2018-06-16 04:31:48 0105 ENDIF
+  2018-06-16 04:31:48 0106 _TempTable:
+  2018-06-16 04:31:48 0107   LOAD Concat(  chr(39)  & VAL &  chr(39) ,',') AS CombinedData Resident OdagBinding
+  2018-06-16 04:31:48      	1 fields found: CombinedData, 
+  2018-06-16 04:31:48      1 lines fetched
+  2018-06-16 04:31:48 0108 Let vNoOfRows = NoOfRows('_TempTable')
+  2018-06-16 04:31:48 0109 IF 1> 0 THEN
+    2018-06-16 04:31:48 0110 LET YEAR_1 = Peek('CombinedData',0,'_TempTable')
+    2018-06-16 04:31:48 0111 ENDIF
+  2018-06-16 04:31:48 0112 drop table _TempTable
+  2018-06-16 04:31:48 0113 drop table 'OdagBinding'
+  2018-06-16 04:31:48 0114 END SUB
+2018-06-16 04:31:48 0129 SET MONTH_1= ''
+2018-06-16 04:31:48 0130 OdagBinding:
+2018-06-16 04:31:48 0131 LOAD * INLINE [
+2018-06-16 04:31:48 0132 VAL 
+2018-06-16 04:31:48 0133 {"quote": "", "delimiter": ""}
+2018-06-16 04:31:48 0134 ]
+2018-06-16 04:31:48      	1 fields found: VAL, 
+2018-06-16 04:31:48      1 lines fetched
+2018-06-16 04:31:48 0136 trace>> AÑO
+2018-06-16 04:31:48 0136 >> AÑO 
+2018-06-16 04:31:48 0137 
+2018-06-16 04:31:48 0138 SET MONTH_1_COLNAME='EXTRACT(MONTH FROM USAGE_DATE_START)'
+2018-06-16 04:31:48 0139 CALL BuildValueList('MONTH_1', 'OdagBinding', 'VAL', 39)
+  2018-06-16 04:31:48 0100 IF (39 = 0) THEN
+    2018-06-16 04:31:48 0103 LET CHREXPR = ' chr(' & '39' & ') '
+    2018-06-16 04:31:48 0104 LET LOADEXPR = 'Concat(  chr(39)  & VAL &  chr(39) ' & ',' & chr(39) & ',' & chr(39) & ') AS CombinedData'
+    2018-06-16 04:31:48 0105 ENDIF
+  2018-06-16 04:31:48 0106 _TempTable:
+  2018-06-16 04:31:48 0107   LOAD Concat(  chr(39)  & VAL &  chr(39) ,',') AS CombinedData Resident OdagBinding
+  2018-06-16 04:31:48      	1 fields found: CombinedData, 
+  2018-06-16 04:31:48      1 lines fetched
+  2018-06-16 04:31:48 0108 Let vNoOfRows = NoOfRows('_TempTable')
+  2018-06-16 04:31:48 0109 IF 1> 0 THEN
+    2018-06-16 04:31:48 0110 LET MONTH_1 = Peek('CombinedData',0,'_TempTable')
+    2018-06-16 04:31:48 0111 ENDIF
+  2018-06-16 04:31:48 0112 drop table _TempTable
+  2018-06-16 04:31:48 0113 drop table 'OdagBinding'
+  2018-06-16 04:31:48 0114 END SUB
+2018-06-16 04:31:48 0141 SET DAY_1= ''
+2018-06-16 04:31:48 0142 OdagBinding:
+2018-06-16 04:31:48 0143 LOAD * INLINE [
+2018-06-16 04:31:48 0144 VAL 
+2018-06-16 04:31:48 0145 {"quote": "", "delimiter": ""}
+2018-06-16 04:31:48 0146 ]
+2018-06-16 04:31:48      	1 fields found: VAL, 
+2018-06-16 04:31:48      1 lines fetched
+2018-06-16 04:31:48 0148 trace>> AÑO
+2018-06-16 04:31:48 0148 >> AÑO 
+2018-06-16 04:31:48 0149 
+2018-06-16 04:31:48 0150 SET DAY_1_COLNAME='EXTRACT(DAY FROM USAGE_DATE_START)'
+2018-06-16 04:31:48 0151 CALL BuildValueList('DAY_1', 'OdagBinding', 'VAL', 39)
+  2018-06-16 04:31:48 0100 IF (39 = 0) THEN
+    2018-06-16 04:31:48 0103 LET CHREXPR = ' chr(' & '39' & ') '
+    2018-06-16 04:31:48 0104 LET LOADEXPR = 'Concat(  chr(39)  & VAL &  chr(39) ' & ',' & chr(39) & ',' & chr(39) & ') AS CombinedData'
+    2018-06-16 04:31:48 0105 ENDIF
+  2018-06-16 04:31:48 0106 _TempTable:
+  2018-06-16 04:31:48 0107   LOAD Concat(  chr(39)  & VAL &  chr(39) ,',') AS CombinedData Resident OdagBinding
+  2018-06-16 04:31:48      	1 fields found: CombinedData, 
+  2018-06-16 04:31:48      1 lines fetched
+  2018-06-16 04:31:48 0108 Let vNoOfRows = NoOfRows('_TempTable')
+  2018-06-16 04:31:48 0109 IF 1> 0 THEN
+    2018-06-16 04:31:48 0110 LET DAY_1 = Peek('CombinedData',0,'_TempTable')
+    2018-06-16 04:31:48 0111 ENDIF
+  2018-06-16 04:31:48 0112 drop table _TempTable
+  2018-06-16 04:31:48 0113 drop table 'OdagBinding'
+  2018-06-16 04:31:48 0114 END SUB
+2018-06-16 04:31:48 0153 SET EVENT_DIRECTION_ID_1= ''
+2018-06-16 04:31:48 0154 OdagBinding:
+2018-06-16 04:31:48 0155 LOAD * INLINE [
+2018-06-16 04:31:48 0156 VAL 
+2018-06-16 04:31:48 0157 {"quote": "", "delimiter": ""}
+2018-06-16 04:31:48 0158 ]
+2018-06-16 04:31:48      	1 fields found: VAL, 
+2018-06-16 04:31:48      1 lines fetched
+2018-06-16 04:31:48 0160 trace>> EVENT
+2018-06-16 04:31:48 0160 >> EVENT 
+2018-06-16 04:31:48 0161 
+2018-06-16 04:31:48 0162 SET EVENT_DIRECTION_ID_1_COLNAME='EVENT_DIRECTION_ID'
+2018-06-16 04:31:48 0163 CALL BuildValueList('EVENT_DIRECTION_ID_1', 'OdagBinding', 'VAL', 39)
+  2018-06-16 04:31:48 0100 IF (39 = 0) THEN
+    2018-06-16 04:31:48 0103 LET CHREXPR = ' chr(' & '39' & ') '
+    2018-06-16 04:31:48 0104 LET LOADEXPR = 'Concat(  chr(39)  & VAL &  chr(39) ' & ',' & chr(39) & ',' & chr(39) & ') AS CombinedData'
+    2018-06-16 04:31:48 0105 ENDIF
+  2018-06-16 04:31:48 0106 _TempTable:
+  2018-06-16 04:31:48 0107   LOAD Concat(  chr(39)  & VAL &  chr(39) ,',') AS CombinedData Resident OdagBinding
+  2018-06-16 04:31:48      	1 fields found: CombinedData, 
+  2018-06-16 04:31:48      1 lines fetched
+  2018-06-16 04:31:48 0108 Let vNoOfRows = NoOfRows('_TempTable')
+  2018-06-16 04:31:48 0109 IF 1> 0 THEN
+    2018-06-16 04:31:48 0110 LET EVENT_DIRECTION_ID_1 = Peek('CombinedData',0,'_TempTable')
+    2018-06-16 04:31:48 0111 ENDIF
+  2018-06-16 04:31:48 0112 drop table _TempTable
+  2018-06-16 04:31:48 0113 drop table 'OdagBinding'
+  2018-06-16 04:31:48 0114 END SUB
+2018-06-16 04:31:48 0165 SET SERVICE_TYPE_ID_1= ''
+2018-06-16 04:31:48 0166 OdagBinding:
+2018-06-16 04:31:48 0167 LOAD * INLINE [
+2018-06-16 04:31:48 0168 VAL 
+2018-06-16 04:31:48 0169 {"quote": "", "delimiter": ""}
+2018-06-16 04:31:48 0170 ]
+2018-06-16 04:31:48      	1 fields found: VAL, 
+2018-06-16 04:31:48      1 lines fetched
+2018-06-16 04:31:48 0172 trace>> SERVICE
+2018-06-16 04:31:48 0172 >> SERVICE 
+2018-06-16 04:31:48 0173 
+2018-06-16 04:31:48 0174 SET SERVICE_TYPE_ID_1_COLNAME='SERVICE_TYPE_ID'
+2018-06-16 04:31:48 0175 CALL BuildValueList('SERVICE_TYPE_ID_1', 'OdagBinding', 'VAL', 39)
+  2018-06-16 04:31:48 0100 IF (39 = 0) THEN
+    2018-06-16 04:31:48 0103 LET CHREXPR = ' chr(' & '39' & ') '
+    2018-06-16 04:31:48 0104 LET LOADEXPR = 'Concat(  chr(39)  & VAL &  chr(39) ' & ',' & chr(39) & ',' & chr(39) & ') AS CombinedData'
+    2018-06-16 04:31:48 0105 ENDIF
+  2018-06-16 04:31:48 0106 _TempTable:
+  2018-06-16 04:31:48 0107   LOAD Concat(  chr(39)  & VAL &  chr(39) ,',') AS CombinedData Resident OdagBinding
+  2018-06-16 04:31:48      	1 fields found: CombinedData, 
+  2018-06-16 04:31:48      1 lines fetched
+  2018-06-16 04:31:48 0108 Let vNoOfRows = NoOfRows('_TempTable')
+  2018-06-16 04:31:48 0109 IF 1> 0 THEN
+    2018-06-16 04:31:48 0110 LET SERVICE_TYPE_ID_1 = Peek('CombinedData',0,'_TempTable')
+    2018-06-16 04:31:48 0111 ENDIF
+  2018-06-16 04:31:48 0112 drop table _TempTable
+  2018-06-16 04:31:48 0113 drop table 'OdagBinding'
+  2018-06-16 04:31:48 0114 END SUB
+2018-06-16 04:31:48 0178 SET WHERE_PART = ''
+2018-06-16 04:31:48 0179 FOR EACH fldname IN 'YEAR_1','MONTH_1','DAY_1','EVENT_DIRECTION_ID_1','SERVICE_TYPE_ID_1'
+  2018-06-16 04:31:48 0180 LET vallist = YEAR_1
+  2018-06-16 04:31:48 0181 IF (IsNull(vallist)) THEN
+  2018-06-16 04:31:48 0184 IF (len(vallist) > 0) THEN
+    2018-06-16 04:31:48 0185 CALL ExtendSQLWhere('YEAR_1','vallist')
+      2018-06-16 04:31:48 0086 LET T = Name & '_COLNAME'
+      2018-06-16 04:31:48 0087 LET ColName = YEAR_1_COLNAME
+      2018-06-16 04:31:48 0088 LET Values = vallist
+      2018-06-16 04:31:48 0089 IF (len(Values) > 0) THEN
+        2018-06-16 04:31:48 0090 IF len(WHERE_PART) > 0 THEN
+          2018-06-16 04:31:48 0093 LET WHERE_PART = ' WHERE EXTRACT(YEAR FROM USAGE_DATE_START) IN ( ''{"quote": ""'' )'
+          2018-06-16 04:31:48 0094 ENDIF
+        2018-06-16 04:31:48 0095 ENDIF
+      2018-06-16 04:31:48 0096 END SUB
+    2018-06-16 04:31:48 0186 ENDIF
+2018-06-16 04:31:48 0187 NEXT fldname
+  2018-06-16 04:31:48 0180 LET vallist = MONTH_1
+  2018-06-16 04:31:48 0181 IF (IsNull(vallist)) THEN
+  2018-06-16 04:31:48 0184 IF (len(vallist) > 0) THEN
+    2018-06-16 04:31:48 0185 CALL ExtendSQLWhere('MONTH_1','vallist')
+      2018-06-16 04:31:48 0086 LET T = Name & '_COLNAME'
+      2018-06-16 04:31:48 0087 LET ColName = MONTH_1_COLNAME
+      2018-06-16 04:31:48 0088 LET Values = vallist
+      2018-06-16 04:31:48 0089 IF (len(Values) > 0) THEN
+        2018-06-16 04:31:48 0090 IF len(WHERE_PART) > 0 THEN
+          2018-06-16 04:31:48 0091 LET WHERE_PART = ' WHERE EXTRACT(YEAR FROM USAGE_DATE_START) IN ( ''{"quote": ""'' ) AND EXTRACT(MONTH FROM USAGE_DATE_START) IN ( ''{"quote": ""'' )'
+        2018-06-16 04:31:48 0092 ELSE
+        2018-06-16 04:31:48 0095 ENDIF
+      2018-06-16 04:31:48 0096 END SUB
+    2018-06-16 04:31:48 0186 ENDIF
+2018-06-16 04:31:48 0187 NEXT fldname
+  2018-06-16 04:31:48 0180 LET vallist = DAY_1
+  2018-06-16 04:31:48 0181 IF (IsNull(vallist)) THEN
+  2018-06-16 04:31:48 0184 IF (len(vallist) > 0) THEN
+    2018-06-16 04:31:48 0185 CALL ExtendSQLWhere('DAY_1','vallist')
+      2018-06-16 04:31:48 0086 LET T = Name & '_COLNAME'
+      2018-06-16 04:31:48 0087 LET ColName = DAY_1_COLNAME
+      2018-06-16 04:31:48 0088 LET Values = vallist
+      2018-06-16 04:31:48 0089 IF (len(Values) > 0) THEN
+        2018-06-16 04:31:48 0090 IF len(WHERE_PART) > 0 THEN
+          2018-06-16 04:31:48 0091 LET WHERE_PART = ' WHERE EXTRACT(YEAR FROM USAGE_DATE_START) IN ( ''{"quote": ""'' ) AND EXTRACT(MONTH FROM USAGE_DATE_START) IN ( ''{"quote": ""'' ) AND EXTRACT(DAY FROM USAGE_DATE_START) IN ( ''{"quote": ""'' )'
+        2018-06-16 04:31:48 0092 ELSE
+        2018-06-16 04:31:48 0095 ENDIF
+      2018-06-16 04:31:48 0096 END SUB
+    2018-06-16 04:31:48 0186 ENDIF
+2018-06-16 04:31:48 0187 NEXT fldname
+  2018-06-16 04:31:48 0180 LET vallist = EVENT_DIRECTION_ID_1
+  2018-06-16 04:31:48 0181 IF (IsNull(vallist)) THEN
+  2018-06-16 04:31:48 0184 IF (len(vallist) > 0) THEN
+    2018-06-16 04:31:48 0185 CALL ExtendSQLWhere('EVENT_DIRECTION_ID_1','vallist')
+      2018-06-16 04:31:48 0086 LET T = Name & '_COLNAME'
+      2018-06-16 04:31:48 0087 LET ColName = EVENT_DIRECTION_ID_1_COLNAME
+      2018-06-16 04:31:48 0088 LET Values = vallist
+      2018-06-16 04:31:48 0089 IF (len(Values) > 0) THEN
+        2018-06-16 04:31:48 0090 IF len(WHERE_PART) > 0 THEN
+          2018-06-16 04:31:48 0091 LET WHERE_PART = ' WHERE EXTRACT(YEAR FROM USAGE_DATE_START) IN ( ''{"quote": ""'' ) AND EXTRACT(MONTH FROM USAGE_DATE_START) IN ( ''{"quote": ""'' ) AND EXTRACT(DAY FROM USAGE_DATE_START) IN ( ''{"quote": ""'' ) AND EVENT_DIRECTION_ID IN ( ''{"quote": ""'' )'
+        2018-06-16 04:31:48 0092 ELSE
+        2018-06-16 04:31:48 0095 ENDIF
+      2018-06-16 04:31:48 0096 END SUB
+    2018-06-16 04:31:48 0186 ENDIF
+2018-06-16 04:31:48 0187 NEXT fldname
+  2018-06-16 04:31:48 0180 LET vallist = SERVICE_TYPE_ID_1
+  2018-06-16 04:31:48 0181 IF (IsNull(vallist)) THEN
+  2018-06-16 04:31:48 0184 IF (len(vallist) > 0) THEN
+    2018-06-16 04:31:48 0185 CALL ExtendSQLWhere('SERVICE_TYPE_ID_1','vallist')
+      2018-06-16 04:31:48 0086 LET T = Name & '_COLNAME'
+      2018-06-16 04:31:48 0087 LET ColName = SERVICE_TYPE_ID_1_COLNAME
+      2018-06-16 04:31:48 0088 LET Values = vallist
+      2018-06-16 04:31:48 0089 IF (len(Values) > 0) THEN
+        2018-06-16 04:31:48 0090 IF len(WHERE_PART) > 0 THEN
+          2018-06-16 04:31:48 0091 LET WHERE_PART = ' WHERE EXTRACT(YEAR FROM USAGE_DATE_START) IN ( ''{"quote": ""'' ) AND EXTRACT(MONTH FROM USAGE_DATE_START) IN ( ''{"quote": ""'' ) AND EXTRACT(DAY FROM USAGE_DATE_START) IN ( ''{"quote": ""'' ) AND EVENT_DIRECTION_ID IN ( ''{"quote": ""'' ) AND SERVICE_TYPE_ID IN ( ''{"quote": ""'' )'
+        2018-06-16 04:31:48 0092 ELSE
+        2018-06-16 04:31:48 0095 ENDIF
+      2018-06-16 04:31:48 0096 END SUB
+    2018-06-16 04:31:48 0186 ENDIF
+2018-06-16 04:31:48 0187 NEXT fldname
+2018-06-16 04:31:48 0188 TRACE Generated WHERE clause:
+2018-06-16 04:31:48 0188 Generated WHERE clause: 
+2018-06-16 04:31:48 0189 
+2018-06-16 04:31:48 0189 TRACE >>  WHERE EXTRACT(YEAR FROM USAGE_DATE_START) IN ( '{"quote": ""' ) AND EXTRACT(MONTH FROM USAGE_DATE_START) IN ( '{"quote": ""' ) AND EXTRACT(DAY FROM USAGE_DATE_START) IN ( '{"quote": ""' ) AND EVENT_DIRECTION_ID IN ( '{"quote": ""' ) AND SERVICE_TYPE_ID IN ( '{"quote": ""' )
+2018-06-16 04:31:48 0189 >>  WHERE EXTRACT(YEAR FROM USAGE_DATE_START) IN ( '{"quote": ""' ) AND EXTRACT(MONTH FROM USAGE_DATE_START) IN ( '{"quote": ""' ) AND EXTRACT(DAY FROM USAGE_DATE_START) IN ( '{"quote": ""' ) AND EVENT_DIRECTION_ID IN ( '{"quote": ""' ) AND SERVICE_TYPE_ID IN ( '{"quote": ""' )
+2018-06-16 04:31:48 0190 
+2018-06-16 04:31:48 0191 LIB CONNECT TO 'Data Oracle (tim_e705732)'
+2018-06-16 04:32:09      Connected.
+2018-06-16 04:32:09 0193 SELECT 
+2018-06-16 04:32:09 0194 EXTRACT(YEAR FROM USAGE_DATE_START) YEAR,
+2018-06-16 04:32:09 0195 EXTRACT(MONTH FROM USAGE_DATE_START) MONTH,
+2018-06-16 04:32:09 0196 EXTRACT(DAY FROM USAGE_DATE_START) DAY,
+2018-06-16 04:32:09 0197 USAGE_DATE_START,
+2018-06-16 04:32:09 0198 USAGE_QTY,
+2018-06-16 04:32:09 0199 BILLING_AMT,
+2018-06-16 04:32:09 0200 SERVICE_TYPE_ID,
+2018-06-16 04:32:09 0201 EVENT_DIRECTION_ID
+2018-06-16 04:32:09 0202 FROM DWO.USAGE where rownum<=10
+2018-06-16 04:32:09      	8 fields found: YEAR, MONTH, DAY, USAGE_DATE_START, USAGE_QTY, BILLING_AMT, SERVICE_TYPE_ID, EVENT_DIRECTION_ID, 
+2018-06-16 04:32:09      10 lines fetched
+2018-06-16 04:32:09 0206 exit script
+2018-06-16 04:32:10      Creating search index
+2018-06-16 04:32:10      Search index creation completed successfully
+2018-06-16 04:32:10      Execution finished.
